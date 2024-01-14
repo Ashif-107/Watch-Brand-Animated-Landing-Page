@@ -66,7 +66,7 @@ function page2Animation(){
     gsap.from(".elem h1",{
         y: 120,
         stagger: 0.25,
-        duration: 1,
+        duration: 2,
         scrollTrigger:{
             trigger:"#page2",
             scroller:"#main",

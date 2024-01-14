@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&family=Montserrat+Alternates:wght@200&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Genos:wght@200&family=Montserrat+Alternates:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 
 
@@ -59,6 +58,11 @@ nav h3,h4{
     font-weight: 100;
 }
 
+nav h4:hover{
+    border-bottom: 1px solid wheat;
+    cursor: pointer;
+}
+
 .page1-content h1{
     padding: 2rem;
     font-size: 14rem;
@@ -97,8 +101,7 @@ nav h3,h4{
     border-bottom: 1px solid black;
     margin-bottom: 2vw;
     margin-top: .4rem;
-    font-family: 'Genos', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Tektur', sans-serif;
 }
 
 .elem{
@@ -110,7 +113,122 @@ nav h3,h4{
     margin-bottom: 1rem;
     line-height: 3vw;
     text-align: center;
-    font-family: 'Genos', sans-serif;
+    font-weight: bolder;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+    background-color: beige;
+}
+
+.page3-top{
+    padding-top: 5vw;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+.page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.page3-top h2{
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.page3-top h4 span{
+    color: orangered;
+}
+
+.page3-elements{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7vw;
+    
+}
+
+.page3-elements .box{
+    height: 100%;
+    width: 32.7%;
+    position: relative;
+}
+
+.page3-elements .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page3-elements .box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.7s all linear;
+}
+
+.page3-elements .box:hover img{
+    opacity: 0;
+}
+.page3-elements .box:hover h3{
+    opacity: 0;
+}
+
+.page3-elements .box h3{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    top: 33vw;
+    left: 8vw;
+    font-size: 3vw;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bolder;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+.page4-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.page4-top h1{
+    text-align: start;
+
+    padding: 2vw;
+    margin-bottom: 2vw;
+}
+
+#page4 video{
+    width: 100%;
+    object-fit: cover;
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 4vw 1vw;
+    background-color: beige;
+}
+
+.page5 h1{
+    font-size: 10vw ;
 }
