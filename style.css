@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&family=Montserrat+Alternates:wght@200&display=swap');
 
 
 
@@ -68,8 +69,8 @@ nav h3,h4{
 
 .cursor{
     height: 6vw;
-    width: 6vw;
-    background-color: #5F4226 ;
+    width: 6vw; 
+    background-color: #FF5E39;
     border-radius: 50%;
     position: fixed;
     z-index: 9;
@@ -78,4 +79,35 @@ nav h3,h4{
     justify-content:center ;
     font-size: 1.3vw;
     transform: translate(-50%,-50%)
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+
+.page2-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.page2-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;font-family: 'Genos', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+}
+
+.page2-content p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-right: 20rem;
+    line-height: 3rem;
+    text-align: justify;
+    font-family: 'Genos', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
 }
