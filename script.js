@@ -77,3 +77,18 @@ function page2Animation(){
     })
 }
 page2Animation()
+
+
+function swiperanimation(){
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: true,
+          },
+      });
+}
+
+swiperanimation()
